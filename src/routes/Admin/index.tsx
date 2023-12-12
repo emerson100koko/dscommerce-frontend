@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import HeaderAdmin from "../../components/HeaderAdmin";
+import HeaderAdmin from "../../componentes/HeaderAdmin";
 
 export default function Admin() {
   return (
