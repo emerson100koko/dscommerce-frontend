@@ -1,6 +1,6 @@
 import "./styles.css";
 import { Link } from "react-router-dom";
-import CartIcon from "../CartIcon";
+import CarIcon from "../CarIcon";
 import iconAdmin from "../../assets/admin.svg";
 import * as authService from "../../services/auth-service";
 import { useContext } from "react";
@@ -30,7 +30,7 @@ export default function HeaderClient() {
             }
             <Link to={"/cart"}>
               <div className="dsc-menu-item">
-                <CartIcon />
+                <CarIcon />
               </div>
             </Link>
           </div>
